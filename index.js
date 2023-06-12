@@ -24,3 +24,13 @@ loadPassenger(num){
         console.log("Car is full");
     }
 }
+
+scheduleService(mileage){
+    if (mileage > 30000){
+        this.scheduleService = true;
+        console.log("Time for maintenance. Service is scheduled");
+    } else {
+        this.scheduleService = false;
+        console.log("No immediate maintenance required");
+    }
+}
