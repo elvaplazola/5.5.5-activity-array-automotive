@@ -11,7 +11,7 @@ class Car extends Vehicle {
         this.scheduleService = false;
     }
 }
-
+// Methods
 loadPassenger(num){
     if (this.passenger < this.maximumPassengers){
         if (this.passenger + num <= this.maximumPassengers){
