@@ -12,3 +12,15 @@ class Car extends Vehicle {
     }
 }
 
+loadPassenger(num){
+    if (this.passenger < this.maximumPassengers){
+        if (this.passenger + num <= this.maximumPassengers){
+            this.passenger += num;
+            console.log(num + "passenger(s) loaded.");
+        }else{
+            console.log("No more room");
+        }
+    } else {
+        console.log("Car is full");
+    }
+}
