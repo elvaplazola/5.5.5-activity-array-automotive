@@ -10,7 +10,7 @@ class Vehicle {
         this.started = false;
         this.numberOfWheels = 0;
     }
-
+// start method
     start() {
         if (this.fuel > 0) {
             return this.started = true;
